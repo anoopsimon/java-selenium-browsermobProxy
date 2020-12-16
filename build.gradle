@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:6.9.1'
+    testImplementation 'io.cucumber:cucumber-junit:6.9.1'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'net.lightbody.bmp', name: 'browsermob-core', version: '2.1.5'
+
+
+}
+
+repositories {
+    mavenCentral()
+}
